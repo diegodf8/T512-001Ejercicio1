@@ -10,11 +10,12 @@ public class Main {
         long numero2;
 
         Scanner reader = new Scanner (System.in);
-        numero2=reader.nextInt();
+        System.out.println("Introduzca numero entero para calcular factorial");
+        numero2=reader.nextLong();
 
         for (long i=1;i<=numero2;i++){
             fact*=i;
         }
-        System.out.println(fact);
+        System.out.println("El factorial de "+numero2+" es "+fact);
     }
 }
