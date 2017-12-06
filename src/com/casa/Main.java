@@ -19,8 +19,6 @@ public class Main {
             fact*=i;
         }
         System.out.println("El factorial de "+numero2+" es "+fact);
-
-
         */
         for (int j :num){
             System.out.println(j);
@@ -30,6 +28,16 @@ public class Main {
             System.out.println(num[k]);
         }
 
+        int l=0;
+        int acu=0;
+        System.out.println("++++++++++++++++++++++++++++");
+        while (num[l]<20){
+            System.out.println(num[l]);
+            acu+=num[l];
+            System.out.println("ACU:"+acu);
+
+            l++;
+        }
 
     }
 }
