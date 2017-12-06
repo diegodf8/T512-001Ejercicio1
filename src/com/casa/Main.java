@@ -8,8 +8,10 @@ public class Main {
 
         long fact=1;
         long numero2;
+        int [] num = {3,5,7,34,3};
+        int aux=0;
 
-        Scanner reader = new Scanner (System.in);
+        /*Scanner reader = new Scanner (System.in);
         System.out.println("Introduzca numero entero para calcular factorial");
         numero2=reader.nextLong();
 
@@ -17,5 +19,17 @@ public class Main {
             fact*=i;
         }
         System.out.println("El factorial de "+numero2+" es "+fact);
+
+
+        */
+        for (int j :num){
+            System.out.println(j);
+        }
+
+        for (int k=0;k<num.length;k++){
+            System.out.println(num[k]);
+        }
+
+
     }
 }
