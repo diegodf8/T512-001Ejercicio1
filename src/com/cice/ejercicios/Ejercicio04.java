@@ -21,16 +21,20 @@ public class Ejercicio04 {
         else if (notaMedia < 6 ){
             System.out.println("SUFICIENTE");
         }
-        else if (notaMedia < 7.5) {
+        else if (notaMedia < 7.5 ) {
             System.out.println("BIEN");
         }
-        else if (notaMedia <8.5) {
+        else if (notaMedia < 8.5 ) {
             System.out.println("NOTABLE");
         }
         else {
             System.out.println("SOBRESALIENTE");
         }
 
+        int notaEntero = (int) notaMedia;  //casting
+
+        System.out.println("Nota media entera: "+ notaEntero);
+        
     }
 
 
