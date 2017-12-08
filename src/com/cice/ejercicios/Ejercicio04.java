@@ -34,7 +34,7 @@ public class Ejercicio04 {
         int notaEntero = (int) notaMedia;  //casting
 
         System.out.println("Nota media entera: "+ notaEntero);
-        
+
     }
 
 
