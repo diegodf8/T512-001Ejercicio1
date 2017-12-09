@@ -1,5 +1,6 @@
 package com.cice.principal;
 
+import com.cice.usoclases.Calculadora;
 import com.cice.usoclases.Personaje;
 
 import java.util.Scanner;
@@ -8,6 +9,7 @@ public class Principal {
 
     public static void main (String[] args){
 
+        /*
         Personaje prota = new Personaje();
         Scanner sc = new Scanner (System.in);
         String nombreprota;
@@ -19,6 +21,10 @@ public class Principal {
         prota.correr();
         prota.detenerse();
         prota.saltar();
+*/
+
+        Calculadora calc = new Calculadora();
+        calc.mostrarMenu();
 
     }
 }
