@@ -1,7 +1,7 @@
 package com.cice.usoclases;
 
 /**
- * @autor Diego Dominguez
+ * @autor DiegoDominguez
  */
 
 
@@ -19,6 +19,17 @@ public class Coche {
 
     public static void main(String[] args){
         System.out.println("Tst");
+
+    }
+
+    public void andar (){
+
+
+    }
+
+    public String saludar(){
+
+        return "Hola Mundo";
 
     }
 }
